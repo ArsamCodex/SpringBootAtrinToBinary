@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    Input String <br/>
+    <input type="text" name="tall1"/><br/>
+
+
+    Difficulty Set By User : <br/>
+    <input type="text" name="tall4"/><br/>
+
+
+    <br/>
+    <input type="radio" name="mathType" value="pluss"/> String To Binary <br/>
+    <br/>
+
+    <br/>
+    <input type="radio" name="mathType1" value="pluss1"/> Binary to String <br/>
+    <br/>
+
+    <input type="submit" value="Convert"/>
+    <div>
+        <p th:text="test"> </p><p th:text="${svar}"></p>
+    </div>
+
+
+
+</form>
+
+</body>
+</html>
